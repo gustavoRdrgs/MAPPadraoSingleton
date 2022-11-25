@@ -8,7 +8,7 @@ public class CirculoSingleton {
     private static double raio;
 
 
-    public CirculoSingleton (double raio) {
+    private CirculoSingleton (double raio) {
         CirculoSingleton.raio = raio;
     }
 

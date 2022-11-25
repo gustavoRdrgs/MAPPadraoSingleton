@@ -12,7 +12,7 @@ public class TrianguloSingleton {
     private double base;
     private double altura;
 
-    public TrianguloSingleton(double base, double altura) {
+    private TrianguloSingleton(double base, double altura) {
         this.base = base;
         this.altura = altura;
     }
